@@ -34,5 +34,17 @@ Python geospatial data science libraries:
 - geopandas
 - geoplot (Python 3.6+ only!) <br/><br/>  
 
-Possible installation is via Anaconda Prompt. For all libraries the command `conda install "library_name"` will work. The geoplot has to be installed over the Forge Channel:  `conda install geoplot -c conda-forge`
+Possible installation is via Anaconda Prompt. For all libraries the command `conda install "library_name"` will work. The geoplot has to be installed over the Forge Channel:  `conda install geoplot -c conda-forge` <br/><br/><br/>
+
+## Insights Summary: </br></br>
+### Accidents' Hot Spots
+- I was able to distinguish three roads with accident pile ups. Of course these are not the only ones, however they seem to be outstanding from the others.
+Please refer to the following picutres:  
+
+
+</br>
+- Amenities and environmental conditions connected to the accidents' frequency:
+
+### Application of Neural Network for predicting the Severity of an Accident
+- Producing the algorithm to predicit the accidents' severity is hampered due to strongly unbalanced number of different labels in the data set. Since the mode (severity class 2) makes around 70% percent of all records, an accuracy level of around 75% (obtained by model fitted onto original data) does not bring much. One could get nearly the same just by picking up the mode. Less represented classes could not be predicted properly. Therefore, the data set has been balanced so all of the classes contained the same number of records. Such an approach enhenced the models capability to predict among less numerous classes, however got worse while predicting class 2 beeing now underrepresented.
 
