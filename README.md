@@ -8,7 +8,7 @@
 
 ***This project serves in the first line the fulfillment of the exercise requirements of the first part of the Udacity's "Data Scientist" Nanodegree. Nevertheless, the data set used for this exercise contains actuall records and can be used to drag insights leading to real applications. 
 The data set can be retrived from the following link (acutal version) https://www.kaggle.com/sobhanmoosavi/us-accidents  
-Version used for my analysis has been attached in form of csv file to this repository  <br/><br/><br/><br/>
+For the analysis in the attached jupyter notebook file the version number 8 was used.<br/><br/><br/><br/>
 Acknowledgements:  <br/><br/>
 "Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, and Rajiv Ramnath. “A Countrywide Traffic Accident Dataset.”, 2019.  
 "Moosavi, Sobhan, Mohammad Hossein Samavatian, Srinivasan Parthasarathy, Radu Teodorescu, and Rajiv Ramnath. "Accident Risk Prediction based on Heterogeneous Sparse Data: New Dataset and Insights." In proceedings of the 27th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, ACM", 2019.***  <br/><br/><br/><br/>
