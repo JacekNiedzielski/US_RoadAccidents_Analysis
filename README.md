@@ -57,3 +57,5 @@ Amenities and environmental conditions connected to the accidents' frequency:<br
 - Producing the algorithm to predicit the accidents' severity is hampered due to strongly unbalanced number of different labels in the data set. Since the mode (severity class 2) makes around 70% percent of all records, an accuracy level of around 75% (obtained by model fitted onto original data) does not bring much. One could get nearly the same results just by picking up the mode. Less represented classes could not be predicted properly. Therefore, the data set has been balanced so that all of the classes contained the same number of records. Such an approach enhenced the models capability to predict among less numerous classes, however got worse while predicting class 2 beeing now underrepresented. Please compare the results below:</br></br></br></br></br>
 ![balanced_unbalanced_comparison](https://user-images.githubusercontent.com/64994740/127754238-9c2915cb-38b1-4c0e-9dbf-44879506e173.png)
 
+Realted article on Medium:
+https://medium.com/@niedzielskijacek/usa-road-accidents-hot-spots-and-severity-5a0ef2541521
